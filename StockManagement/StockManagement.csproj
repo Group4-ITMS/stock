@@ -181,6 +181,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Dashboards\DashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -197,12 +198,52 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\dashboard.css" />
+    <Content Include="Content\Plugins\Datatable\datatables.min.css" />
+    <Content Include="Content\Plugins\Datatable\datatables.min.js" />
+    <Content Include="Content\Plugins\Fontawesome\css\font-awesome.css" />
+    <Content Include="Content\Plugins\Fontawesome\css\font-awesome.min.css" />
+    <Content Include="Content\Plugins\Fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Plugins\Fontawesome\HELP-US-OUT.txt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Plugins\Fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\Plugins\Fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\Plugins\Fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\Plugins\Fontawesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\Plugins\Fontawesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\Plugins\Fontawesome\less\animated.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\bordered-pulled.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\core.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\fixed-width.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\font-awesome.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\icons.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\larger.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\list.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\mixins.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\path.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\rotated-flipped.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\screen-reader.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\stacked.less" />
+    <Content Include="Content\Plugins\Fontawesome\less\variables.less" />
+    <Content Include="Content\Plugins\Fontawesome\scss\font-awesome.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_animated.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_core.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_fixed-width.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_icons.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_larger.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_list.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_mixins.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_path.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_screen-reader.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_stacked.scss" />
+    <Content Include="Content\Plugins\Fontawesome\scss\_variables.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -248,9 +289,13 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\NewFolder1\" />
+    <Folder Include="Content\Plugins\Chart\" />
+    <Folder Include="Content\Plugins\Fonts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

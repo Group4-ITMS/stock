@@ -1,0 +1,20 @@
+﻿
+.main-content{
+    display:flex;
+}
+.navbar {
+    box-shadow: 1px 0px 10px 0px #c3c3c39e;
+    border: 0;
+    background: white;
+}
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    height: 100vh;
+    background: #0f1d32;
+}
+.body-section {
+    width: 200%;
+    background: #ededed5e;
+}
